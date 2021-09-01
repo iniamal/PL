@@ -4,7 +4,7 @@ import 'package:dagsap3/user/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'constants/color_constant.dart';
 import 'constants/style_constant.dart';
-
+import 'package:firebase_auth/firebase_auth.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -31,7 +31,7 @@ class _LoginState extends State<Login> {
               padding: EdgeInsets.only(left: 30, top: 10),
               child: Text(
                 'PT DAGSAP ENDURA EATORA',
-                style: defa,
+                style: subdefa,
               ),
             ),
             Container(

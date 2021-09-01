@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353886717351",
+    "project_id": "dagsapmonitoring",
+    "storage_bucket": "dagsapmonitoring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353886717351:android:25c43589c3a89f807a2282",
+        "android_client_info": {
+          "package_name": "com.example.dagsap3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353886717351-3ghbjpisjvdmrt7o7pnp72k9ott1s888.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1SXqHSu5rZGD7ikYRtuJcCTM7WXhdQo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353886717351-3ghbjpisjvdmrt7o7pnp72k9ott1s888.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
