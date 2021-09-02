@@ -1,5 +1,7 @@
 import 'dart:ui';
 import 'package:dagsap3/user/formcov.dart';
+import 'package:dagsap3/user/riwayatkaryawan.dart';
+import 'package:dagsap3/user/sarankaryawan.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:dagsap3/bottom_navbar.dart';
 import 'package:dagsap3/constants/color_constant.dart';
@@ -130,7 +132,13 @@ class _UserDashboardState extends State<UserDashboard> {
                                       shape: CircleBorder(),
                                       color: dagsapred,
                                       padding: EdgeInsets.all(20),
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    RiwayatKar()));
+                                      },
                                       child: Icon(
                                         Icons.history,
                                         color: Colors.white,
@@ -144,7 +152,13 @@ class _UserDashboardState extends State<UserDashboard> {
                                             shape: CircleBorder(),
                                             color: dagsapred,
                                             padding: EdgeInsets.all(20),
-                                            onPressed: () {},
+                                            onPressed: () {
+                                              Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          SaranKaryawan()));
+                                            },
                                             child: Icon(
                                               Icons.sms,
                                               color: Colors.white,

@@ -1,4 +1,5 @@
 import 'package:dagsap3/constants/style_constant.dart';
+import 'package:dagsap3/medis/homedis.dart';
 import 'package:dagsap3/register.dart';
 import 'package:dagsap3/user/dashboard.dart';
 import 'package:flutter/material.dart';
@@ -100,7 +101,7 @@ class _LoginState extends State<Login> {
                     ),
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Register()));
+                          MaterialPageRoute(builder: (context) => HomeMedis()));
                     })),
             Container(
               padding: EdgeInsets.only(top: 60),
